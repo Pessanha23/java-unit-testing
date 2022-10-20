@@ -1,4 +1,4 @@
-package produtopolimorfismo;
+package polimorfismoproduto;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -38,7 +38,7 @@ public class BancoDeDados {
     public String imprimirTudo() {
         String vazia = "";
         for (Produto produto : produtos) {
-           vazia = vazia.concat(produto.priceTag()) ;
+            vazia = vazia.concat(produto.priceTag());
         }
         return vazia;
     }

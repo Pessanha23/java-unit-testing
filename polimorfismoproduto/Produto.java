@@ -1,4 +1,4 @@
-package produtopolimorfismo;
+package polimorfismoproduto;
 
 public class Produto {
 

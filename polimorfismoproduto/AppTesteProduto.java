@@ -1,12 +1,11 @@
-package polimorfismoareas;
+package polimorfismoproduto;
 
 import org.junit.Assert;
 import org.junit.Test;
-import produtopolimorfismo.BancoDeDados;
 
 import java.util.Locale;
 
-public class APPTESTE {
+public  class AppTesteProduto {
 
     @Test
     public void a() {
@@ -38,3 +37,4 @@ public class APPTESTE {
 
     }
 }
+

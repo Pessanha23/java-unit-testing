@@ -1,4 +1,4 @@
-package produtopolimorfismo;
+package polimorfismoproduto;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
