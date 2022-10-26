@@ -18,7 +18,6 @@ public class AppTesteTrabalho {
         String expectativa = "Plenor";
 
         Assert.assertEquals(expectativa, resultado);
-
     }
 
     @Test
@@ -61,9 +60,9 @@ public class AppTesteTrabalho {
                 Income for 08/2018: 3000.0
                 
                 """;
-
         Assert.assertEquals(expectativa2, resultado);
     }
+
     @Test
     public void teste_4() throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -132,7 +131,5 @@ public class AppTesteTrabalho {
                """;
 
         Assert.assertEquals(expectativa2, resultado);
-
-
     }
 }
