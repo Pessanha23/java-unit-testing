@@ -1,6 +1,4 @@
-package pardalheranca;
-
-import java.util.Scanner;
+package heranca;
 
 public class APP {
 

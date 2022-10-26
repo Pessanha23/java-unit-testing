@@ -1,4 +1,4 @@
-package pardalheranca;
+package heranca;
 
 public class Carro {
 

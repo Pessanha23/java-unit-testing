@@ -1,4 +1,4 @@
-package polimorfismoDesign;
+package enumdesign;
 
 public enum NivelTrabalho {
 
