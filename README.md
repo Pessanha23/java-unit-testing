@@ -1,6 +1,6 @@
-# Polimorfismo
+# Polimorfismo / Composição / Enum / JUnit
 
-Treinando situações e praticando o polimorfismo.
+Treinando situações e praticando o polimorfismo, composição, Enum e testes unitário (JUnit).
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="100px" /> <img                                                     
 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="100px" /> <img 
