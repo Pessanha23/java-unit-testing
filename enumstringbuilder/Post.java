@@ -1,5 +1,6 @@
 package enumstringbuilder;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -12,6 +13,8 @@ public class Post {
     private Integer likes;
 
     List<Comment> comment = new ArrayList<>();
+
+    private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
     public Post() {
     }
@@ -57,6 +60,32 @@ public class Post {
 
     public List<Comment> getComment() {
         return comment;
+    }
+
+    public void addComment(Comment coment) {
+        comment.add(coment);
+    }
+
+    public void removeComent(Comment coment) {
+        comment.remove(coment);
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(title);
+        sb.append('\n');
+        sb.append( likes);
+        sb.append(" Likes - ");
+        sb.append(sdf.format(moment));
+        sb.append('\n');
+        sb.append(content);
+        sb.append('\n');
+        for (Comment comment1 : comment) {
+            sb.append(comment1.getText());
+        }
+
+        return sb.toString();
     }
 
 }

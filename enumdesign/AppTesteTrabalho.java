@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.DayOfWeek;
 import java.time.Month;
 
 public class AppTesteTrabalho {
